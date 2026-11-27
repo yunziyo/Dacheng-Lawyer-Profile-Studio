@@ -2,6 +2,10 @@
 
 面向北京大成（深圳）律师事务所的个人宣传资料制作工具。律师可以制作电子名片、整理个人简历并生成个人网站。网站支持下载为 HTML，也支持由律师主动发布到工作台托管的公开链接。
 
+从 GitHub 选择 **Code → Download ZIP** 下载源码包。压缩包内包含 [`AI_GUIDE.md`](AI_GUIDE.md)，可让编程 AI 先检查并完成本地环境配置，再按律师使用的 AI 平台引导简历导入和逐项核对。
+
+[直接下载 GitHub 源码 ZIP](https://github.com/yunziyo/Dacheng-Lawyer-Profile-Studio/archive/refs/heads/main.zip)
+
 ## 能做什么
 
 - **电子名片**：20 款紫色系模板，填写姓名、职务、业务和联系方式；可上传微信二维码放在名片背面。下载正反面 PNG，或下载分层可编辑 SVG。

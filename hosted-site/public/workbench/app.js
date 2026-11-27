@@ -107,7 +107,7 @@
         <a class="home-entry" href="#/site"><img src="/site-thumbnails/editorial.png" alt="柔紫编排网站样式">
           <div><h2>制作个人网站</h2><p>导入简历或手动填写，逐项核对后发布客户网址，也可下载 HTML。</p><span class="primary">开始制作网站</span></div>
         </a>
-      </div><p class="session-note">无需账号。关闭页面后，本次未发布的内容不会保留。</p>`;
+      </div>`;
   }
 
   function renderCard(){
