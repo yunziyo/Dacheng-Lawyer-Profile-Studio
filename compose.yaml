@@ -1,0 +1,16 @@
+services:
+  workbench:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    env_file:
+      - .env
+    environment:
+      DACHENG_HOST: 0.0.0.0
+      DACHENG_PORT: 8788
+      DACHENG_DATA: /var/lib/dacheng-workbench
+    volumes:
+      - ./persistent-data:/var/lib/dacheng-workbench
+    ports:
+      - "127.0.0.1:8788:8788"

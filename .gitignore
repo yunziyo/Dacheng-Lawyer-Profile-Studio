@@ -1,0 +1,22 @@
+# Local configuration and persistent data
+.env
+.env.*
+!.env.example
+server-data/
+persistent-data/
+__pycache__/
+*.py[cod]
+
+# Local development artifacts
+.DS_Store
+.venv/
+venv/
+.pytest_cache/
+
+# Hosted Sites build/runtime artifacts
+hosted-site/node_modules/
+hosted-site/dist/
+hosted-site/.next/
+hosted-site/.wrangler/
+hosted-site/.vinext/
+hosted-site/.sites-runtime/

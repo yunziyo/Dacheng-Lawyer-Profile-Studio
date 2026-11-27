@@ -1,0 +1,6 @@
+- id: dacheng-profile-bridge
+  name: "@deepseek-ai/dsh-mcp-client"
+  config:
+    serverName: dacheng-profile
+    transport: streamable-http
+    url: https://dacheng-profile-workbench.blush-whale-9999.chatgpt.site/mcp
